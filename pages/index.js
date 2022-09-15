@@ -3,7 +3,7 @@ import Body from "../components/Body";
 import HeroSection from "../components/HeroSection";
 import { useStateContext } from "../context/StateContext";
 
-const index = () => {
+const Index = () => {
   const { theme } = useStateContext();
   return (
     <>
@@ -15,4 +15,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
