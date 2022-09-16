@@ -1,6 +1,8 @@
 import React from "react";
-import Body from "../components/Body";
+import Aboutme from "../components/Aboutme";
+import GridLayout from "../components/GridImage";
 import HeroSection from "../components/HeroSection";
+import MyProjects from "../components/MyProjects";
 import { useStateContext } from "../context/StateContext";
 
 const Index = () => {
@@ -9,7 +11,9 @@ const Index = () => {
     <>
       <div data-theme={theme}>
         <HeroSection />
-        <Body />
+        <MyProjects />
+        <GridLayout />
+        <Aboutme />
       </div>
     </>
   );

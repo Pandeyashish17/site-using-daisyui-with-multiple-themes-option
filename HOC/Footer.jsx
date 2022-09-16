@@ -40,6 +40,7 @@ const Footer = () => {
         className="footer items-center p-4 bg-neutral text-neutral-content"
         data-theme={theme}
       >
+      
         <div className="items-center grid-flow-col">
           <svg
             width="36"
@@ -83,6 +84,6 @@ const Footer = () => {
       </footer>
     </>
   );
-};
+}
 
 export default Footer;

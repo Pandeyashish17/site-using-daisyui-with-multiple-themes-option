@@ -1,6 +1,6 @@
 import React from "react";
 import { useStateContext } from "../context/StateContext";
-
+import Link from "next/link"
 const Navbar = () => {
   const { themes, setTheme, theme } = useStateContext();
   return (
@@ -28,15 +28,21 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li>
-                <a>Homepage</a>
-              </li>
-              <li>
-                <a>Portfolio</a>
-              </li>
-              <li>
-                <a>About</a>
-              </li>
+              <Link href="/">
+                <li>
+                  <a>Homepage</a>
+                </li>
+              </Link>
+              <Link href="/portfolio">
+                <li>
+                  <a>Portfolio</a>
+                </li>
+              </Link>
+              <Link href="/about">
+                <li>
+                  <a>About</a>
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
@@ -46,7 +52,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <div className="dropdown dropdown-end">
             <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">
-               Theme
+              Theme
             </button>
             <ul
               tabIndex={0}
