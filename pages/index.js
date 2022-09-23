@@ -4,7 +4,6 @@ import HeroSection from "../components/HeroSection";
 import MyProjects from "../components/MyProjects";
 import MyServices from "../components/MyServices";
 import { useStateContext } from "../context/StateContext";
-import Testimonials from "../components/Testimonials/Testimonials";
 const Index = () => {
   const { theme } = useStateContext();
   return (
@@ -14,7 +13,6 @@ const Index = () => {
         <Aboutme />
         <MyProjects />
         <MyServices />
-        <Testimonials />
       </div>
     </>
   );

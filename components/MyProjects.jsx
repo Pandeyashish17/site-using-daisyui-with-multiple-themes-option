@@ -24,13 +24,13 @@ const MyProjects = () => {
   ];
   return (
     <>
-      <div name="work" className="w-full md:h-screen ">
-        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-          <div className="pb-8">
-            <p className="text-4xl font-bold inline border-b-4 border-pink-600">
+      <div name="work" className="w-full md:h-screen mb-14">
+        <div className="max-w-[1000px] mx-auto p-4 fle  flex-col justify-center w-full h-full">
+          <div className="pb-5">
+            <p className="text-4xl font-bold inline text-indigo-600  ">
               Work
             </p>
-            <p className="py-6"> Check out some of my recent work</p>
+            <p className="pt-2"> Check out some of my recent work</p>
           </div>
 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">

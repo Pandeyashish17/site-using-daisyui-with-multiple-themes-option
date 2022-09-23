@@ -14,13 +14,13 @@ const HeroSection = () => {
 
   return (
     <>
-      <div className=" w-full ">
-        <div className="w-[80vw] xs:mt-8 mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className=" w-full pt-10 h-[80vh]">
+        <div className="w-[80vw]  mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
           <div className="flex flex-col justify-center h-full">
             <h2 className="text-4xl sm:text-7xl font-bold ">
               {` I'm a Full Stack Developer`}
             </h2>
-            <p className=" py-4 max-w-md">
+            <p className=" py-4 ">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero
               perferendis quos cupiditate, numquam pariatur aperiam beatae
               doloremque explicabo laborum hic.
